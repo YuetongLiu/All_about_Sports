@@ -1,2 +1,5 @@
-# All_about_Sports-
-Sport Database &amp; Website 
+# All_about_Sports
+The domain of our model is about game plays. The data that we aremanaging is the matching information for both physical and electronicsports.
+The aspects of game plays that we modelled is about the details ofevery team and player involved in each game. This includes things likegame results of each match, performance of each team and statistics aboutteam members and coaches(e.g. Personal physical information, KDA ofplayers in esports play). There will be different kinds of games, games indifferent leagues may have additional information, such as the “price pool”in most of esport games. The game type will be a categorical data thatenable users browsing only selected type of games.
+The system includes a customer view which enables customers to use theiremail address as identification to subscribe their favourite teams or players.The system will pin the latest subscribed gameplays at the top of page.Users will also be able to get a close look on recent game plays or theperformance of chosen teams. We will need a password to enable a playerto edit their subscriptions.
+This project is done with MySQL and PHP and provide the webinterface.

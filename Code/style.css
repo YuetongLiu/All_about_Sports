@@ -1,0 +1,175 @@
+body {
+    background: url("./bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+#container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    padding: 2vh 2vw;
+}
+
+#left-container {
+    box-sizing: border-box;
+    width: 60%;
+}
+
+#right-container {
+    box-sizing: border-box;
+    width: 40%;
+}
+
+#login-container {
+    border: 1vh solid skyblue;
+    border-radius: 1vh;
+    padding: 3vw;
+    margin: 5vh auto;
+    background: #f0f0f0;
+}
+.form-control {
+    display: inline-block !important;
+    max-width: 15vw !important;
+}
+#login {
+    text-align: center;
+}
+#signup{
+    display: none;
+    text-align: center;
+}
+
+#insertion-form {
+    border: 1vh solid skyblue;
+    border-radius: 1vh;
+    padding: 3vw;
+    margin: 5vh auto;
+    background: #f0f0f0;
+}
+
+#delete-form {
+    border: 1vh solid skyblue;
+    border-radius: 1vh;
+    padding: 3vw;
+    margin: 5vh auto;
+    background: #f0f0f0;
+}
+
+#filter-form {
+    border: 1vh solid skyblue;
+    border-radius: 1vh;
+    padding: 3vw;
+    margin: 5vh auto;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+#subscribe-player {
+    border: 1vh solid skyblue;
+    border-radius: 1vh;
+    padding: 3vw;
+    margin: 5vh auto;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+#subscribe-team {
+    border: 1vh solid skyblue;
+    border-radius: 1vh;
+    padding: 3vw;
+    margin: 5vh auto;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+.card {
+    width: 80% !important;
+    margin: auto !important;
+    text-align: center !important;
+}
+.form-title {
+    text-align: center;
+}
+
+#header {
+    width: 90%;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 2vw;
+}
+
+.success {
+    color: green;
+}
+
+.match-display {
+    color: black;
+    text-decoration: none;
+}
+
+.match-display:hover {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    width: calc(100% / 5);
+}
+
+td {
+    width: calc(100% / 5);
+}
+
+#introduction {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    white-space: nowrap;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.2vw;
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+#subscribe-player {
+    display: none;
+}
+
+.coach {
+    text-align: left;
+}
+
+.fa-star {
+    color: gold !important;
+}
+
+.top-player {
+    text-align: center;
+    font-size: 4vw;
+}
+
+.center {
+    text-align: center;
+}
+
+.fa-trophy {
+    color: gold;
+    font-size: 6vw;
+}
